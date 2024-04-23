@@ -12,8 +12,8 @@ const socketIO=require('socket.io');
 const app=express();
 const server=http.createServer(app);
 const io=socketIO(server);
-
-app.use(express.static('../public'));
+app.use(express.static(path.join(__dirname, '../public')));
+// app.use(express.static('../public'));
 io.on('connection',function(socket)
 {
     console.log('A user connected');
