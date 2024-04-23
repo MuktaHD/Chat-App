@@ -28,5 +28,5 @@ io.on('connection',function(socket)
 });
 const PORT=process.env.PORT||3004;
     server.listen(PORT,function(){
-        console.log(`server is running on port ${PORT}`);
+        console.log(`server is running on port http://localhost:${PORT}`);
     })
