@@ -30,4 +30,4 @@ const PORT=process.env.PORT||3004;
     server.listen(PORT,function(){
         console.log(`server is running on port http://localhost:${PORT}`);
     })
-// on terminal: run the node server.js then server is running on port http://localhost:3004
+// on terminal:run the node server.js then server is running on port http://localhost:3004
