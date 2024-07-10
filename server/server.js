@@ -1,6 +1,6 @@
 
 //first install the require using terminal type 
-//npm i http
+//npm i http 
 //npm i path
 //npm i express
 //nmp i socket.io
