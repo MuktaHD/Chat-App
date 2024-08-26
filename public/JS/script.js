@@ -5,8 +5,7 @@ document.addEventListener('DOMContentLoaded',function()
  const socket=io();
  const messageInput=document.getElementById('message-input');
  const sendButton=document.getElementById('send-button');
- const chatOutput=document.getElementById('chat-output');
- sendButton.addEventListener('click',sendMessage);
+ const chatOutput=document.getElementById('chat-output'); sendButton.addEventListener('click',sendMessage);
  socket.on('chat-message',function(data){
     displayMessage(data);
  });
